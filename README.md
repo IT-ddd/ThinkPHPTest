@@ -18,21 +18,37 @@ PHP5.3以上版本（注意：PHP5.3dev版本和PHP6均不支持）
 这里我们推荐使用集成开发环境WAMPServer（wampserver是一个集成了Apache、PHP和MySQL的开发套件，而且支持不同PHP版本、MySQL版本和Apache版本的切换）来使用ThinkPHP进行本地开发和测试。
 
 三、ThinkPHP框架结构
+
     ├─ThinkPHP 框架系统目录（可以部署在非web目录下面）
+    
     │  ├─Common       核心公共函数目录
+    
     │  ├─Conf         核心配置目录 
+    
     │  ├─Lang         核心语言包目录
+    
     │  ├─Library      框架类库目录
+    
     │  │  ├─Think     核心Think类库包目录
+    
     │  │  ├─Behavior  行为类库目录
+    
     │  │  ├─Org       Org类库包目录
+    
     │  │  ├─Vendor    第三方类库目录
+    
     │  │  ├─ ...      更多类库目录
+    
     │  ├─Mode         框架应用模式目录
+    
     │  ├─Tpl          系统模板目录
+    
     │  ├─LICENSE.txt  框架授权协议文件
+    
     │  ├─logo.png     框架LOGO文件
+    
     │  ├─README.txt   框架README文件
+    
     │  └─index.php    框架入口文件
 
 四、入口文件定义
